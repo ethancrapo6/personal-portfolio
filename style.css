@@ -147,3 +147,17 @@ main p:not(.eyebrow) {
     background-color: #f7f3ed;
     box-sizing: border-box;
 }
+
+/* ADD COLORS TO PROJECT/RESUME BUTTONS */
+.hero-button {
+    display: inline-block;
+    background-color: #4b1f2b;
+    color: #ffffff;
+    padding: 14px 28px;
+    border: 1px solid #4b1f2b;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
