@@ -116,3 +116,10 @@ body {
     letter-spacing: 3px;
     color: #806d6d
 }
+
+/*HOMEPAGE INTRODUCTION*/
+main pLnot(.eyebrow) {
+    max-width: 650px;
+    font-size: 16px;
+    line-height: 1.8;
+}
