@@ -34,6 +34,7 @@ nav {
     justify-content: space-between; /* Space out the items */
     align-items: center; /* Center items vertically */
     padding: 20px 40px; /*creates space inside an element*/
+    postion: relative;
 
 }
 
@@ -50,6 +51,9 @@ nav {
     color: #4b1f2b;
     text-decoration: none;
     font-size: 16px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* CENTER NAVIGATION LOGO */
