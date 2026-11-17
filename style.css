@@ -217,6 +217,7 @@ footer {
 
 .skill-list li {
     background-color: #ffffff;
+    padding-left: 0;
     padding: 12px 20px;
     border: 1px solid #4b1f2b;
     border-radius: 8px;
