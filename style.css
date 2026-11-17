@@ -223,8 +223,3 @@ footer {
     border-radius: 8px;
     color: #4b1f2b;
 }
-
-/*HOVER EFFECT*/
-.skill-list li: hover {
-    background-color: #ffffff;
-}
