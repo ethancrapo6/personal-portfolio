@@ -58,6 +58,12 @@ nav {
     transform: translateX(-50%);
 }
 
+/* NAVIGATION LINK APPEARANCE */
+.nav-links a {
+    color: #4b1f2b;
+    text-decoration: none;
+    font-size: 16px;
+}
 
 /* CENTER NAVIGATION LOGO */
 .nav-links .logo {
