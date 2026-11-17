@@ -123,3 +123,11 @@ main p:not(.eyebrow) {
     font-size: 16px;
     line-height: 1.8;
 }
+
+/* HOMEPAGE HERO SECTION */
+.hero {
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
