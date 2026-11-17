@@ -106,3 +106,13 @@ body {
     height: auto;
     display: block;
 }
+
+/*HOMEPAGE INTRODUCTORY LABEL */
+.eyebrow {
+    font-family: "DM Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #806d6d
+}
