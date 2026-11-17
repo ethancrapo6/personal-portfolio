@@ -161,3 +161,16 @@ main p:not(.eyebrow) {
     font-size: 14px;
     font-weight: 500;
 }
+.resume-button {
+    display: inline-block;
+    background-color: transparent;
+    color: #4b1f2b;
+    padding: 14px 28px;
+    border: 1px solid #4b1f2b;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 12px;
+}
