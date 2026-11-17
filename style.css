@@ -184,6 +184,15 @@ main p:not(.eyebrow) {
     color: #ffffff;
 }
 
+/* hover effect for both buttons so they aren't the same color*/
+.hero-text:has(.resume-button:hover) .hero-button {
+    background-color: transparent;
+    color: #4b1f2b;
+}
+.resume-button:has(.hero-text:hover) .resume-button {
+    background-color:#4b1f2b;
+    color:#ffffff;
+}
 /* FOOTER */
 footer {
     border-top: 1px solid #e8d8c5;
