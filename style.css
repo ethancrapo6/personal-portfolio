@@ -9,7 +9,7 @@
 }
 
 h1 {
-    fomnt-family: "Fin Serif Display", Georgia, serif;
+    font-family: "Fin Serif Display", Georgia, serif;
 }
 
 /*WEBSITE BACKGROUND COLOR*/
@@ -40,7 +40,7 @@ nav {
 
 /*PORTFOLIO LOGO*/
 .logo {
-    font_family: "Fin Serif Display", Georgia, serif;
+    font-family: "Fin Serif Display", Georgia, serif;
     font-size: 28px;
     color: #4b1f2b;
     text-decoration: none;
@@ -162,8 +162,8 @@ main p:not(.eyebrow) {
     font-weight: 500;
 }
 .hero-button:hover {
-    background-color: transparent;
-    color: #4b1f2b;
+    background-color: #4b1f2b;
+    color: #ffffff;
 }
 
 .resume-button {
@@ -189,9 +189,9 @@ main p:not(.eyebrow) {
     background-color: transparent;
     color: #4b1f2b;
 }
-.resume-button:has(.hero-text:hover) .resume-button {
-    background-color:#4b1f2b;
-    color:#ffffff;
+.hero-text:has(.hero-button:hover) .resume-button {
+    background-color: transparent;
+    color: #4b1f2b;
 }
 /* FOOTER */
 footer {
@@ -222,11 +222,11 @@ footer {
     display: flex;
     gap: 25px;
     flex-wrap: wrap;
+    padding-left: 0;
 }
 
 .skill-list li {
     background-color: #ffffff;
-    padding-left: 0;
     padding: 12px 20px;
     border: 1px solid #4b1f2b;
     border-radius: 8px;
