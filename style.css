@@ -30,4 +30,12 @@ nav {
     border-bottom: 1px solid #e8d8c5;
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space out the items */
+    align-items: center; /* Center items vertically */
+    padding: 20px 40px; /*creates space inside an element*/
+
+}
+
+/* PORTFOLIO LOGO */
+.logo {
+    font_family: "Fin Serif Display", Georgia, serif;
 }
