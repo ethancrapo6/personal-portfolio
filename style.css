@@ -11,3 +11,15 @@
 h1 {
     fomnt-family: "Fin Serif Display", Georgia, serif;
 }
+
+/*WEBSITE BACKGROUND COLOR*/
+body {
+    background-color: #f7f3ed;
+    color:#292424;
+}
+
+/*MAIN HEADINGS*/
+h1 {
+    font-family: "Fin Serif Display", Georgia, serif;
+    color: #4b1f2b
+}
