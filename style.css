@@ -48,3 +48,9 @@ nav {
     color: #4b1f2b;
     text-decoration: none;
 }
+
+/* NAVIGATION LINKS SPACING*/
+.nav-links {
+    display: flex;
+    gap: 30px; /* Space between links */
+}
