@@ -16,10 +16,18 @@ h1 {
 body {
     background-color: #f7f3ed;
     color:#292424;
+    margin: 0;
 }
 
 /*MAIN HEADINGS*/
 h1 {
     font-family: "Fin Serif Display", Georgia, serif;
     color: #4b1f2b
+}
+
+/*NAVIGATION BAR STYLING*/
+nav {
+    border-bottom: 1px solid #e8d8c5;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the items */
 }
