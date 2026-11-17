@@ -1,0 +1,13 @@
+/*IMPLEMENTING FIN SERIF DISPLAY FONT */ 
+@font-face {
+    font-family:"Fin Serif Display";
+    src: url("fonts/FinSerifDisplay-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+
+h1 {
+    fomnt-family: "Fin Serif Display", Georgia, serif;
+}
