@@ -184,7 +184,7 @@ footer {
     font-size: 13px;
     color: #4b1f2b;
 }
-
+/* TECH SKILLS SECTION HOMEPAGE */
 .skills {
     background-color: #f7f3ed;
     padding: 60px 15px;
@@ -199,7 +199,7 @@ footer {
     margin-bottom: 30px;
 }
 
-.skills-list {
+.skill-list {
     list-style-type: none;
     display: flex;
     gap: 25px;
