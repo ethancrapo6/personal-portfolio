@@ -23,6 +23,7 @@ body {
 h1 {
     font-family: "Fin Serif Display", Georgia, serif;
     color: #4b1f2b;
+    font-size: 64px;
 }
 
 /*NAVIGATION BAR STYLING*/
@@ -35,7 +36,7 @@ nav {
 
 }
 
-/* PORTFOLIO LOGO */
+/*PORTFOLIO LOGO*/
 .logo {
     font_family: "Fin Serif Display", Georgia, serif;
     font-size: 28px;
@@ -43,15 +44,21 @@ nav {
     text-decoration: none;
 }
 
-/* NAVIGATION LINKS */
+/*NAVIGATION LINKS*/
 .nav-links a {
     color: #4b1f2b;
     text-decoration: none;
     font-size: 16px;
 }
 
-/* NAVIGATION LINKS SPACING*/
+/*NAVIGATION LINKS SPACING*/
 .nav-links {
     display: flex;
     gap: 30px; /* Space between links */
 }
+
+/*MAIN CONTENT*/
+main {
+    padding: 80px 40px; /*creates space inside an element for main text content*/
+}
+
