@@ -57,6 +57,7 @@ nav {
     display: flex;
     flex: 1; /* Allow the links to take up available space */
     gap: 30px; /* Space between links */
+    justify-content: space-between;
 }
 
 /*MAIN CONTENT*/
