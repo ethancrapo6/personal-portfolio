@@ -199,3 +199,9 @@ footer {
     margin-bottom: 30px;
 }
 
+.skills-list {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
