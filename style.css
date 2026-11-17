@@ -118,7 +118,7 @@ body {
 }
 
 /*HOMEPAGE INTRODUCTION*/
-main pLnot(.eyebrow) {
+main p:not(.eyebrow) {
     max-width: 650px;
     font-size: 16px;
     line-height: 1.8;
