@@ -52,6 +52,10 @@ nav {
     font-size: 16px;
 }
 
+/* CENTER NAVIGATION LOGO */
+.nav-links .logo {
+    font-size: 28px;
+}
 /*NAVIGATION LINKS SPACING*/
 .nav-links {
     display: flex;
