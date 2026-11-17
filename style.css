@@ -188,6 +188,7 @@ footer {
 .skills {
     background-color: #f7f3ed;
     padding: 60px 15px;
+    padding-left: 0px;
     border-top: 1px solid #e8d8c5;
 }
 
