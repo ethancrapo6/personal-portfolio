@@ -126,8 +126,10 @@ main p:not(.eyebrow) {
 
 /* HOMEPAGE HERO SECTION */
 .hero {
-    min-height: 65vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
 }
+
