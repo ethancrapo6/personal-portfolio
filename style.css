@@ -76,7 +76,7 @@ nav {
 
 /*MAIN CONTENT*/
 main {
-    padding:40px; /*creates space inside an element for main text content*/
+    padding:100px 60px; /*creates space inside an element for main text content*/
 }
 
 /*CURRENT PAGE TITLE FONT SIZE*/
