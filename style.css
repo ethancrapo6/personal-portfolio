@@ -161,6 +161,11 @@ main p:not(.eyebrow) {
     font-size: 14px;
     font-weight: 500;
 }
+.hero-button:hover {
+    background-color: transparent;
+    color: #4b1f2b;
+}
+
 .resume-button {
     display: inline-block;
     background-color: transparent;
@@ -173,6 +178,10 @@ main p:not(.eyebrow) {
     font-size: 14px;
     font-weight: 500;
     margin-left: 12px;
+}
+.resume-button:hover {
+    background-color: #4b1f2b;
+    color: #ffffff;
 }
 
 /* FOOTER */
@@ -204,4 +213,17 @@ footer {
     display: flex;
     gap: 25px;
     flex-wrap: wrap;
+}
+
+.skill-list li {
+    background-color: #ffffff;
+    padding: 12px 20px;
+    border: 1px solid #4b1f2b;
+    border-radius: 8px;
+    color: #4b1f2b;
+}
+
+/*HOVER EFFECT*/
+.skill-list li: hover {
+    background-color: #ffffff;
 }
