@@ -40,4 +40,11 @@ nav {
     font_family: "Fin Serif Display", Georgia, serif;
     font-size: 28px;
     color: #4b1f2b;
+    text-decoration: none;
+}
+
+/* NAVIGATION LINKS */
+.nav-links a {
+    color: #4b1f2b;
+    text-decoration: none;
 }
