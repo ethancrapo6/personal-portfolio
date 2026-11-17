@@ -133,3 +133,13 @@ main p:not(.eyebrow) {
     gap: 60px;
 }
 
+/* HOMEPAGE PC IMAGE */
+.hero-image img {
+    width: 100%;
+    max-width: 450px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
