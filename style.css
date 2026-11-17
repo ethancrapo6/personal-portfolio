@@ -59,10 +59,13 @@ nav {
 /*NAVIGATION LINKS SPACING*/
 .nav-links {
     display: flex;
-    flex: 1; /* Allow the links to take up available space */
-    gap: 30px; /* Space between links */
-    justify-content: space-between;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-left: 40px;
 }
+
 
 /*MAIN CONTENT*/
 main {
