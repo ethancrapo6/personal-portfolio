@@ -239,7 +239,7 @@ footer {
     .hero-image img {
         max-width: 100%;
     }
-    .nav-links {
+nav .nav-links {
         position: static;
         transform: none;
         grid-template-columns: repeat(5, auto);
