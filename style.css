@@ -223,3 +223,20 @@ footer {
     border-radius: 8px;
     color: #4b1f2b;
 }
+
+/*MEDIA QUERIES FOR RESPONSIVE DESIGN*/
+@media (max-width: 768px) {
+    .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .hero-image img {
+        max-width: 100%;
+    }
+    .nav-links {
+        position: static;
+        transform: none;
+        grid-template-columns: repeat(5, auto);
+        gap: 10px;
+    }
+}
