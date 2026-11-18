@@ -128,7 +128,7 @@ main p:not(.eyebrow) {
     max-width: 900px;
     height: 550px;
     object-fit: cover;
-    object-position:center;
+    object-position:50% 50%;
     border-radius: 8px;
     display: block;
     margin: 0 auto;
