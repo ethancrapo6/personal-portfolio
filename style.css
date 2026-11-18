@@ -225,6 +225,11 @@ footer {
     color: #4b1f2b;
 }
 
+/* HIDES BURGER BUTTON ON DESKTOP*/
+.menu-toggle {
+    display:none;
+}
+
 /*MEDIA QUERIES FOR RESPONSIVE DESIGN*/
 @media (max-width: 768px) {
     .hero {
@@ -239,5 +244,9 @@ footer {
         transform: none;
         grid-template-columns: repeat(5, auto);
         gap: 10px;
+        display: none;
     }
+    .menu-toggle {
+        display:block;
+}
 }
