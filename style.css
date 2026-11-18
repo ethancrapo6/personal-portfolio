@@ -225,6 +225,33 @@ footer {
     color: #4b1f2b;
 }
 
+/* EXPERTISE CARDS LAYOUT*/
+.expertise-grid {
+grid-template-columns: 1fr 1fr 1fr;
+display: grid;
+gap:25px;
+}
+
+.expertise-card {
+    background-color:#ffffff;
+    padding: 30px;
+    border: 1px solid #e8d8c5;
+    border-radius: 8px;
+    color:#4b1f2b;
+}
+
+.expertise-card h3 {
+    font-family: "Fin Serif Display",Georgia,serif;
+    font-size: 24px;
+    color:#4b1f2b;
+    margin-bottom: 12px;
+}
+
+main .expertise-card p {
+    font-size: 15px;
+    color: #665a5a;
+    line-height: 1.6;
+}
 /* HIDES BURGER BUTTON ON DESKTOP*/
 .menu-toggle {
     display:none;
