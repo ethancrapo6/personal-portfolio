@@ -122,12 +122,13 @@ main p:not(.eyebrow) {
     gap: 60px;
 }
 
-/* HOMEPAGE PC IMAGE */
+/* HOMEPAGE ETHAN IMAGE */
 .hero-image img {
     width: 100%;
     max-width: 900px;
-    height: auto;
+    height: 550px;
     object-fit: cover;
+    object-position:center;
     border-radius: 8px;
     display: block;
     margin: 0 auto;
