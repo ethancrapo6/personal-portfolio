@@ -4,8 +4,6 @@
     src: url("fonts/FinSerifDisplay-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
-
-
 }
 
 h1 {
@@ -34,8 +32,7 @@ nav {
     justify-content: space-between; /* Space out the items */
     align-items: center; /* Center items vertically */
     padding: 20px 40px; /*creates space inside an element*/
-    postion: relative;
-
+    position: relative;
 }
 
 /*PORTFOLIO LOGO*/
@@ -63,20 +60,12 @@ nav {
 .nav-links .logo {
     font-size: 28px;
 }
-/*NAVIGATION LINKS SPACING*/
-.nav-links {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    gap: 35px;
-    margin-left: 40px;
-}
-
 
 /*MAIN CONTENT*/
 main {
     padding:100px 60px; /*creates space inside an element for main text content*/
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 /*CURRENT PAGE TITLE FONT SIZE*/
@@ -137,7 +126,7 @@ main p:not(.eyebrow) {
 .hero-image img {
     width: 100%;
     max-width: 900px;
-    height: 750px;
+    height: auto;
     object-fit: cover;
     border-radius: 8px;
     display: block;
@@ -160,6 +149,7 @@ main p:not(.eyebrow) {
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
     font-weight: 500;
+    transition: 0.3s;
 }
 .hero-button:hover {
     background-color: #4b1f2b;
@@ -178,6 +168,7 @@ main p:not(.eyebrow) {
     font-size: 14px;
     font-weight: 500;
     margin-left: 12px;
+    transition: 0.3s;
 }
 .resume-button:hover {
     background-color: #4b1f2b;
