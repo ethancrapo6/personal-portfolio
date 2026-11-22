@@ -277,3 +277,8 @@ nav .nav-links {
         display:block;
 }
 }
+
+/* CAREER PAGE INTRODUCTION */
+.career-intro p{
+    font-size: 18px;
+}
