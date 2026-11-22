@@ -282,3 +282,10 @@ nav .nav-links {
 .career-intro p{
     font-size: 18px;
 }
+
+/* CAREER PAGE CONTENT LAYOUT */
+.career-page {
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
