@@ -295,3 +295,10 @@ nav .nav-links {
     margin: 0 auto;
     padding: 60px 40px;
 }
+
+/* CAREER PAGE SKILLS GRID */
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
