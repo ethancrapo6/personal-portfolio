@@ -46,7 +46,7 @@ nav {
 /*NAVIGATION LINKS*/
 .nav-links {
     display: grid;
-    grid-template-columns: 80px 80px 120px 80px 80px;
+    grid-template-columns: 80px 80px 120px 80px 80px 80;
     align-items: center;
     justify-items: center;
     gap: 15px;
