@@ -225,6 +225,12 @@ footer {
     color: #4b1f2b;
 }
 
+.skill-grid {
+    display: grid;
+    grid-tempaate-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
 /* EXPERTISE CARDS LAYOUT*/
 .expertise-grid {
 grid-template-columns: 1fr 1fr 1fr;
